@@ -16,22 +16,11 @@ public class TaskControleur implements ActionListener {
     public TaskControleur(TaskModele modele, TaskVue vue) {
         this.modele = modele;
         this.vue = vue;
-
-        //vue.setMot(modele.getMot());
-
-        // Ajout de l'action listener au bouton
-        vue.getSubmitButton().addActionListener(this);
-
-        // Ajout de l'action listener au bouton "Nouvelle partie"
-        vue.getNewGameButton().addActionListener(this);
+        //TODO A faire
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == vue.getSubmitButton()) {
-        }
-        else if (e.getSource() == vue.getNewGameButton()) {
-
-        }
+        //TODO A faire
     }
 }
