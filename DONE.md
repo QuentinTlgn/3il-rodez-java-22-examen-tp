@@ -10,23 +10,23 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 - [ ] Bouton "Ajouter".
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Le mécanisme est fait cependant, mais pas de case à cocher
 
 ### Modification d'une tâche
 
-- [ ] Mécanisme de sélection et de modification de la tâche.
+- [x] Mécanisme de sélection et de modification de la tâche.
 - [ ] Bouton "Modifier".
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Le mécanisme est fait
 
 ### Suppression d'une tâche
 
-- [ ] Mécanisme de sélection et de suppression de la tâche.
+- [x] Mécanisme de sélection et de suppression de la tâche.
 - [ ] Bouton "Supprimer".
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Le mécanisme est fait
 
 ### Visualisation des tâches
 
@@ -38,17 +38,17 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 
 ### Gestion des priorités
 
-- [ ] Possibilité de définir la priorité lors de l'ajout ou de la modification de la tâche.
+- [x] Possibilité de définir la priorité lors de l'ajout ou de la modification de la tâche.
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Un enum gère les différents types de priorités
 
 ### Possibilité d'évolution
 
-- [ ] Description claire des fonctionnalités potentielles à ajouter dans le futur pour améliorer l'application.
-- [ ] Réflexion sur la modularité et la scalabilité de l'application pour faciliter les évolutions futures.
+- [x] Description claire des fonctionnalités potentielles à ajouter dans le futur pour améliorer l'application.
+- [x] Réflexion sur la modularité et la scalabilité de l'application pour faciliter les évolutions futures.
 
-(Explication et justification de ce qui a été fait...)
+Application concue de manière à pouvoir ajouter facilement des éléments
 
 ## Bonus
 
