@@ -1,5 +1,6 @@
 package taskmanager.Modele;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -10,6 +11,10 @@ import taskmanager.objects.prioritesTaches;
 public class TaskModele implements taskManager{
     
     private List<Task> taskList;
+
+    public TaskModele() {
+        this.taskList = new ArrayList<Task>();
+    }
 
     @Override
     public void ajouterTache(Task tache) {
