@@ -1,7 +1,8 @@
 package taskmanager.objects;
+import java.io.Serializable;
 import java.util.Date;
 
-public class Task {
+public class Task implements Serializable {
     private Integer id;
     private String titre;
     private String description;
